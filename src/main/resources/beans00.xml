@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="greeting00" class="edu.nciae.zyh.normal.Greeting">
+        <property name="name"><value>张嘎</value></property>
+        <property name="word"><value>三天不打小鬼子，手都痒痒！(普通控制台输出)</value></property>
+    </bean>
+    <bean id="greeting01" class="edu.nciae.zyh.normal.Greeting">
+        <constructor-arg index="0"><value>张嘎</value></constructor-arg>
+        <constructor-arg index="1"><value>三天不打小鬼子，手都痒痒！(构造注入)</value></constructor-arg>
+    </bean>
+
+    <bean id="greeting02" class="edu.nciae.zyh.normal.Greeting" p:name="张嘎" p:word="三天不打小鬼子，手都痒痒！(p空间注入)"/>
+
+    <bean id="person" class="edu.nciae.zyh.normal.rel.dao.impl.PersonImpl" p:name="张嘎" p:word="三天不打小鬼子，手都痒痒！(依赖注入)"/>
+
+    <bean id="greeting03" class="edu.nciae.zyh.normal.rel.Greeting">
+        <property name="person" ref="person"/>
+    </bean>
+</beans>

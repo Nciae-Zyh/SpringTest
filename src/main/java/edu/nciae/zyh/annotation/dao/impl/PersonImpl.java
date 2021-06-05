@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 @Repository("person")
 public class PersonImpl implements Person {
     private String name="张嘎";
-    private String word="三天不打小鬼子，手都痒痒！";
+    private String word="三天不打小鬼子，手都痒痒！（注解实现依赖注入）";
 
     public String getName() {
         return name;

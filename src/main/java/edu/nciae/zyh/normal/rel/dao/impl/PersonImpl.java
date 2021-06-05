@@ -1,6 +1,6 @@
-package edu.nciae.zyh.normal.dao.impl;
+package edu.nciae.zyh.normal.rel.dao.impl;
 
-import edu.nciae.zyh.normal.dao.Person;
+import edu.nciae.zyh.normal.rel.dao.Person;
 
 public class PersonImpl implements Person {
     private String name;

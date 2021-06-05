@@ -1,15 +1,32 @@
 package edu.nciae.zyh.normal;
 
-import edu.nciae.zyh.normal.dao.Person;
-
 public class Greeting {
-    private Person person;
+    private String name;
+    private String word;
+    public Greeting(){
+    }
+    public Greeting(String name,String word){
+        this.name=name;
+        this.word=word;
+    }
 
-    public void setPerson(Person person) {
-        this.person = person;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getWord() {
+        return word;
+    }
+
+    public void setWord(String word) {
+        this.word = word;
     }
 
     public void say(){
-        person.say();
+        System.out.println(name+"说：“"+word+"。”");
     }
 }
