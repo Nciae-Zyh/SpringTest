@@ -5,9 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
-@Service("greeting")
+@Service()
 public class Greeting {
-    @Autowired(required = false)
+    @Autowired()
     private Person person;
     public void setPerson(Person person) {
         this.person = person;
