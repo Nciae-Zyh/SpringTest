@@ -28,3 +28,31 @@ INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68
 INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68fa0ba8 的 say2 方法。方法返回值：30
 INFO main edu.nciae.zyh.annotation.service.Greeting - 调用edu.nciae.zyh.annotation.service.Greeting@b40bb6e的void edu.nciae.zyh.annotation.service.Greeting.say()方法。方法入参：[]
 INFO main edu.nciae.zyh.annotation.service.Greeting - 调用 edu.nciae.zyh.annotation.service.Greeting@b40bb6e 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.annotation.service.Greeting - 调用edu.nciae.zyh.annotation.service.Greeting@7c7d3c46的void edu.nciae.zyh.annotation.service.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.annotation.service.Greeting - 调用 edu.nciae.zyh.annotation.service.Greeting@7c7d3c46 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.annotation.service.FactorialService - 调用edu.nciae.zyh.annotation.service.FactorialService@305f031的Integer edu.nciae.zyh.annotation.service.FactorialService.factorial(Integer)方法。方法入参：[9]
+INFO main edu.nciae.zyh.annotation.service.FactorialService - 调用 edu.nciae.zyh.annotation.service.FactorialService@305f031 的 factorial 方法。方法返回值：362880
+INFO main edu.nciae.zyh.annotation.service.Greeting - 调用edu.nciae.zyh.annotation.service.Greeting@24fb6a80的void edu.nciae.zyh.annotation.service.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.annotation.service.Greeting - 调用 edu.nciae.zyh.annotation.service.Greeting@24fb6a80 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.annotation.service.FactorialService - 调用edu.nciae.zyh.annotation.service.FactorialService@592e843a的Integer edu.nciae.zyh.annotation.service.FactorialService.factorial(Integer)方法。方法入参：[9]
+INFO main edu.nciae.zyh.annotation.service.FactorialService - 调用 edu.nciae.zyh.annotation.service.FactorialService@592e843a 的 factorial 方法。方法返回值：362880
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@315f43d5的void edu.nciae.zyh.normal.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@315f43d5 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@315f43d5的Integer edu.nciae.zyh.normal.normal.Greeting.say2(Integer)方法。方法入参：[8]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@315f43d5 的 say2 方法。方法返回值：48
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@25bc0606的void edu.nciae.zyh.normal.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@25bc0606 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@25bc0606的Integer edu.nciae.zyh.normal.normal.Greeting.say2(Integer)方法。方法入参：[8]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@25bc0606 的 say2 方法。方法返回值：48
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@25bc0606的void edu.nciae.zyh.normal.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@25bc0606 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@25bc0606的Integer edu.nciae.zyh.normal.normal.Greeting.say2(Integer)方法。方法入参：[8]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@25bc0606 的 say2 方法。方法返回值：48
+INFO main edu.nciae.zyh.normal.normal.service.FactorialService - 调用edu.nciae.zyh.normal.normal.service.FactorialService@5a7005d的Integer edu.nciae.zyh.normal.normal.service.FactorialService.factorial(Integer)方法。方法入参：[9]
+INFO main edu.nciae.zyh.normal.normal.service.FactorialService - 调用 edu.nciae.zyh.normal.normal.service.FactorialService@5a7005d 的 factorial 方法。方法返回值：362880
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@25bc0606的void edu.nciae.zyh.normal.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@25bc0606 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用edu.nciae.zyh.normal.normal.Greeting@25bc0606的Integer edu.nciae.zyh.normal.normal.Greeting.say2(Integer)方法。方法入参：[8]
+INFO main edu.nciae.zyh.normal.normal.Greeting - 调用 edu.nciae.zyh.normal.normal.Greeting@25bc0606 的 say2 方法。方法返回值：48
+INFO main edu.nciae.zyh.normal.normal.service.FactorialService - 调用edu.nciae.zyh.normal.normal.service.FactorialService@5a7005d的Integer edu.nciae.zyh.normal.normal.service.FactorialService.factorial(Integer)方法。方法入参：[9]
+INFO main edu.nciae.zyh.normal.normal.service.FactorialService - 调用 edu.nciae.zyh.normal.normal.service.FactorialService@5a7005d 的 factorial 方法。方法返回值：362880

@@ -9,19 +9,36 @@
 	   http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
     <bean id="greetingLogger" class="edu.nciae.zyh.normal.normal.logger.GreetingLogger"/>
     <bean id="greeting" class="edu.nciae.zyh.normal.normal.Greeting" p:name="张嘎" p:word="三天不打小鬼子，手都痒痒！(不使用注释的aop业务增强日志)"/>
+    <bean id="factorialServiceLogger" class="edu.nciae.zyh.normal.normal.logger.FactorialLogger"/>
+    <bean id="factorialService" class="edu.nciae.zyh.normal.normal.service.FactorialService"/>
     <aop:config>
-        <aop:pointcut id="pointcut" expression="execution(* edu.nciae.zyh.normal.normal.*.*(..))"/>
+        <aop:pointcut id="pointcut1" expression="execution(* edu.nciae.zyh.normal.normal.Greeting.*(..))"/>
         <!-- 可以有很多个增强类  使用哪一个增强类  增强取决于 aop:aspect ref ="bean id"-->
         <aop:aspect ref="greetingLogger">
             <!-- aop:before： 固定格式  前置增强   -->
             <!-- method 方法名称  （来自增强类） -->
             <!-- pointcut-ref  切入点名称 aop:pointcut id="pointcut" -->
-            <aop:before method="before" pointcut-ref="pointcut"></aop:before>
+            <aop:before method="before" pointcut-ref="pointcut1"></aop:before>
             <!-- aop:after-returning： 固定格式  后置增强   -->
             <!-- method 方法名称  （来自增强类） -->
             <!-- pointcut-ref  切入点名称 aop:pointcut id="pointcut" -->
             <!-- returning 有返回值参数   （来自增强类） -->
-            <aop:after-returning method="after" pointcut-ref="pointcut" returning="result"/>
+            <aop:after-returning method="after" pointcut-ref="pointcut1" returning="result"/>
+        </aop:aspect>
+    </aop:config>
+    <aop:config>
+        <aop:pointcut id="pointcut2" expression="execution(* edu.nciae.zyh.normal.normal.service.*.*(..))"/>
+        <!-- 可以有很多个增强类  使用哪一个增强类  增强取决于 aop:aspect ref ="bean id"-->
+        <aop:aspect ref="factorialServiceLogger">
+            <!-- aop:before： 固定格式  前置增强   -->
+            <!-- method 方法名称  （来自增强类） -->
+            <!-- pointcut-ref  切入点名称 aop:pointcut id="pointcut" -->
+            <aop:before method="before" pointcut-ref="pointcut2"></aop:before>
+            <!-- aop:after-returning： 固定格式  后置增强   -->
+            <!-- method 方法名称  （来自增强类） -->
+            <!-- pointcut-ref  切入点名称 aop:pointcut id="pointcut" -->
+            <!-- returning 有返回值参数   （来自增强类） -->
+            <aop:after-returning method="after" pointcut-ref="pointcut2" returning="result"/>
         </aop:aspect>
     </aop:config>
 
