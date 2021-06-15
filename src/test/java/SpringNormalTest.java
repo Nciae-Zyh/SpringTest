@@ -50,4 +50,11 @@ public class SpringNormalTest {
         greeting.say();
     }
 
+    @Test
+    public void test06(){
+        ApplicationContext context=new ClassPathXmlApplicationContext("beans03.xml");
+        edu.nciae.zyh.normal.Greeting greeting=( edu.nciae.zyh.normal.Greeting)context.getBean("greeting");
+        greeting.say();
+        Integer integer=greeting.say2(5);
+    }
 }

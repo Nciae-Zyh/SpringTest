@@ -1,5 +1,6 @@
 edu\nciae\zyh\normal\rel\dao\impl\PersonImpl.class
 edu\nciae\zyh\normal\rel\dao\Person.class
+edu\nciae\zyh\normal\logger\GreetingLogger.class
 edu\nciae\zyh\normal\Greeting.class
 edu\nciae\zyh\annotation\Greeting.class
 edu\nciae\zyh\annotation\dao\Person.class

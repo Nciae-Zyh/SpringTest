@@ -1,0 +1,20 @@
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@56aaaecd的void edu.nciae.zyh.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@56aaaecd 的 say 方法。方法返回值：
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@5e01a982的void edu.nciae.zyh.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@5e01a982 的 say 方法。方法返回值：
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@5e01a982的void edu.nciae.zyh.normal.Greeting.say2()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@5e01a982 的 say2 方法。方法返回值：
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68044f4的void edu.nciae.zyh.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68044f4 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68044f4的void edu.nciae.zyh.normal.Greeting.say2()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68044f4 的 say2 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68044f4的void edu.nciae.zyh.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68044f4 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68044f4的void edu.nciae.zyh.normal.Greeting.say2(Integer)方法。方法入参：[5]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68044f4 的 say2 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68fa0ba8的void edu.nciae.zyh.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68fa0ba8 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68fa0ba8的void edu.nciae.zyh.normal.Greeting.say()方法。方法入参：[]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68fa0ba8 的 say 方法。方法返回值：null
+INFO main edu.nciae.zyh.normal.Greeting - 调用edu.nciae.zyh.normal.Greeting@68fa0ba8的Integer edu.nciae.zyh.normal.Greeting.say2(Integer)方法。方法入参：[5]
+INFO main edu.nciae.zyh.normal.Greeting - 调用 edu.nciae.zyh.normal.Greeting@68fa0ba8 的 say2 方法。方法返回值：30

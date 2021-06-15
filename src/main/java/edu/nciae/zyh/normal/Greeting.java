@@ -29,4 +29,9 @@ public class Greeting {
     public void say(){
         System.out.println(name+"说：“"+word+"。”");
     }
+
+    public Integer say2(Integer integer){
+        System.out.println("输入值为："+integer+"。理论返回值应为"+integer*6);
+        return integer*6;
+    }
 }
