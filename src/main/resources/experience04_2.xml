@@ -7,16 +7,6 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
-
-
-    <!--
-        使用注解方式进行创建对象
-        1.开启注解扫描
-
-        含义:开启注解扫描,指定了 base-package 扫描指定的包,扫描包与子包中所有的类
-        查看类上是否有指定的注解, 如果类上有指定的注解,那么就创建给类对象,
-        放到spring容器中
-    -->
     <context:component-scan base-package="edu.nciae.zyh.annotation"/>
-<!--    <context:annotation-config></context:annotation-config>-->
+
 </beans>

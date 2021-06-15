@@ -1,4 +1,4 @@
-package edu.nciae.zyh.normal;
+package edu.nciae.zyh.normal.normal;
 
 public class Greeting {
     private String name;

@@ -1,10 +1,18 @@
-package edu.nciae.zyh.normal.rel.dao.impl;
+package edu.nciae.zyh.normal.rely.dao.impl;
 
-import edu.nciae.zyh.normal.rel.dao.Person;
+import edu.nciae.zyh.normal.rely.dao.Person;
 
 public class PersonImpl implements Person {
     private String name;
     private String word;
+
+    public PersonImpl() {
+    }
+
+    public PersonImpl(String name, String word) {
+        this.name = name;
+        this.word = word;
+    }
 
     public String getName() {
         return name;
@@ -22,13 +30,8 @@ public class PersonImpl implements Person {
         this.word = word;
     }
 
-    public PersonImpl(){};
-    public PersonImpl(String name,String word){
-        this.name=name;
-        this.word=word;
-    }
     @Override
     public void say() {
-        System.out.println(name+"说：“"+word+"。”");
+        System.out.println(name + "说：“" + word + "。”");
     }
 }

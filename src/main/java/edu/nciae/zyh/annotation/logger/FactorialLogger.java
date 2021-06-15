@@ -1,6 +1,6 @@
 package edu.nciae.zyh.annotation.logger;
 
-import edu.nciae.zyh.annotation.service.Greeting;
+import edu.nciae.zyh.annotation.service.FactorialService;
 import org.apache.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -11,10 +11,11 @@ import org.aspectj.lang.annotation.Pointcut;
 import java.util.Arrays;
 
 @Aspect
-public class GreetingLogger {
-    private static final Logger log=Logger.getLogger(Greeting.class);
+public class FactorialLogger {
 
-    @Pointcut("execution(* edu.nciae.zyh.annotation.service.Greeting.*(..))")
+    private static final Logger log=Logger.getLogger(FactorialService.class);
+
+    @Pointcut("execution(* edu.nciae.zyh.annotation.service.FactorialService.*(..))")
     public void pointcut(){}
 
     @Before("pointcut()")
