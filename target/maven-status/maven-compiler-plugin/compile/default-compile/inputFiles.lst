@@ -3,7 +3,8 @@ D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\normal\rel\dao\impl\Perso
 D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\normal\Greeting.java
 D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\annotation\dao\Person.java
 D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\normal\rel\dao\Person.java
-D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\annotation\Greeting.java
 D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\annotation\dao\impl\PersonImpl.java
+D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\annotation\logger\GreetingLogger.java
+D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\annotation\service\Greeting.java
 D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\normal\logger\GreetingLogger.java
 D:\IdeaProjects\SpringTest\src\main\java\edu\nciae\zyh\normal\dao\Person.java

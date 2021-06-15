@@ -1,4 +1,4 @@
-import edu.nciae.zyh.annotation.Greeting;
+import edu.nciae.zyh.annotation.service.Greeting;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -46,7 +46,7 @@ public class SpringNormalTest {
     @Test
     public void test05(){
         ApplicationContext context=new ClassPathXmlApplicationContext("beans02.xml");
-        edu.nciae.zyh.annotation.Greeting greeting=(Greeting) context.getBean("greeting");
+        Greeting greeting=(Greeting) context.getBean("greeting");
         greeting.say();
     }
 
@@ -56,5 +56,11 @@ public class SpringNormalTest {
         edu.nciae.zyh.normal.Greeting greeting=( edu.nciae.zyh.normal.Greeting)context.getBean("greeting");
         greeting.say();
         Integer integer=greeting.say2(5);
+    }
+    @Test
+    public void test07(){
+        ApplicationContext context=new ClassPathXmlApplicationContext("beans04.xml");
+        Greeting greeting=(Greeting) context.getBean("greeting");
+        greeting.say();
     }
 }

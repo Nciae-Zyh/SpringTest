@@ -1,4 +1,4 @@
-import edu.nciae.zyh.annotation.Greeting;
+import edu.nciae.zyh.annotation.service.Greeting;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -25,7 +25,7 @@ public class SpringTest {
     @Test
     public void test04(){
         ApplicationContext context=new ClassPathXmlApplicationContext("beans02.xml");
-        edu.nciae.zyh.annotation.Greeting greeting=(Greeting) context.getBean("greeting");
+        Greeting greeting=(Greeting) context.getBean("greeting");
         greeting.say();
     }
 }
