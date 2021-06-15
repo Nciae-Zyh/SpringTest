@@ -10,8 +10,11 @@ public class SpringTest {
      */
     @Test
     public void test01() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("experience01.xml");
-        edu.nciae.zyh.normal.normal.Greeting greeting = (edu.nciae.zyh.normal.normal.Greeting) applicationContext.getBean("greeting");
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("experience01.xml");
+        edu.nciae.zyh.normal.normal.Greeting greeting =
+                (edu.nciae.zyh.normal.normal.Greeting)
+                        applicationContext.getBean("greeting");
         greeting.say();
     }
 
@@ -20,8 +23,11 @@ public class SpringTest {
      */
     @Test
     public void test02() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("experience02.xml");
-        edu.nciae.zyh.normal.normal.Greeting greeting = (edu.nciae.zyh.normal.normal.Greeting) applicationContext.getBean("greeting");
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("experience02.xml");
+        edu.nciae.zyh.normal.normal.Greeting greeting =
+                (edu.nciae.zyh.normal.normal.Greeting)
+                        applicationContext.getBean("greeting");
         greeting.say();
     }
 
@@ -30,8 +36,11 @@ public class SpringTest {
      */
     @Test
     public void test03() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("experience03.xml");
-        edu.nciae.zyh.normal.normal.Greeting greeting = (edu.nciae.zyh.normal.normal.Greeting) applicationContext.getBean("greeting");
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("experience03.xml");
+        edu.nciae.zyh.normal.normal.Greeting greeting =
+                (edu.nciae.zyh.normal.normal.Greeting)
+                        applicationContext.getBean("greeting");
         greeting.say();
     }
 
@@ -40,8 +49,10 @@ public class SpringTest {
      */
     @Test
     public void test04_1() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("experience04_1.xml");
-        edu.nciae.zyh.normal.rely.Greeting greeting = (edu.nciae.zyh.normal.rely.Greeting) applicationContext.getBean("greeting");
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("experience04_1.xml");
+        edu.nciae.zyh.normal.rely.Greeting greeting =
+                (edu.nciae.zyh.normal.rely.Greeting) applicationContext.getBean("greeting");
         greeting.say();
     }
 
@@ -50,8 +61,10 @@ public class SpringTest {
      */
     @Test
     public void test04_2() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("experience04_2.xml");
-        Greeting greeting = (Greeting) applicationContext.getBean("greeting");
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("experience04_2.xml");
+        Greeting greeting =
+                (Greeting) applicationContext.getBean("greeting");
         greeting.say();
     }
 
@@ -60,13 +73,18 @@ public class SpringTest {
      */
     @Test
     public void test05_1() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("experience05_1.xml");
-        edu.nciae.zyh.normal.normal.Greeting greeting = (edu.nciae.zyh.normal.normal.Greeting) applicationContext.getBean("greeting");
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("experience05_1.xml");
+        edu.nciae.zyh.normal.normal.Greeting greeting =
+                (edu.nciae.zyh.normal.normal.Greeting) applicationContext.getBean("greeting");
         greeting.say();
         greeting.say2(8);
-        edu.nciae.zyh.normal.normal.service.FactorialService factorialService = (edu.nciae.zyh.normal.normal.service.FactorialService) applicationContext.getBean("factorialService");
+        edu.nciae.zyh.normal.normal.service.FactorialService factorialService =
+                (edu.nciae.zyh.normal.normal.service.FactorialService)
+                        applicationContext.getBean("factorialService");
         int num = 9;
-        System.out.println(num + "!=" + factorialService.factorial(num));
+        System.out.println(num + "!=" +
+                factorialService.factorial(num));
     }
 
     /**
@@ -74,8 +92,10 @@ public class SpringTest {
      */
     @Test
     public void test05_2() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("experience05_2.xml");
-        FactorialService factorialService = (FactorialService) applicationContext.getBean("factorialService");
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("experience05_2.xml");
+        FactorialService factorialService =
+                (FactorialService) applicationContext.getBean("factorialService");
         int num = 9;
         System.out.println(num + "!=" + factorialService.factorial(num));
     }
